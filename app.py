@@ -39,7 +39,11 @@ experiments = [
     {"name": "LogisticRegression", "model": LogisticRegression(max_iter=200), "params": {"solver": "lbfgs"}},
 ]
 import os
-mlflow.set_tracking_uri("file:./mlruns")
+
+# Completely avoid OS-specific absolute paths
+mlflow_tracking_path = os.path.join(os.getcwd(), "mlruns")
+os.makedirs(mlflow_tracking_path, exist_ok=True)
+mlflow.set_tracking_uri("file://" + mlflow_tracking_path)
 
 # Set MLflow experiment
 mlflow.set_experiment("Diabetes_MultiModel_Experiment")
