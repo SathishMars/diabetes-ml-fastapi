@@ -31,6 +31,12 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Clean MLflow state
+        run: |
+            echo "Cleaning MLflow folders"
+            rm -rf ./mlruns
+            rm -rf /D:
+
       - name: Run ML training pipeline
         run: |
           python app.py

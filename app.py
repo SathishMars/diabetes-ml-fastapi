@@ -39,11 +39,13 @@ experiments = [
     {"name": "LogisticRegression", "model": LogisticRegression(max_iter=200), "params": {"solver": "lbfgs"}},
 ]
 import os
+import mlflow
 
-# Completely avoid OS-specific absolute paths
-mlflow_tracking_path = os.path.join(os.getcwd(), "mlruns")
-os.makedirs(mlflow_tracking_path, exist_ok=True)
+# Force tracking inside the current working directory
+mlflow_tracking_path = os.path.abspath("./mlruns")
+print(f"Tracking to local path: {mlflow_tracking_path}")
 mlflow.set_tracking_uri("file://" + mlflow_tracking_path)
+os.makedirs(mlflow_tracking_path, exist_ok=True)
 
 # Set MLflow experiment
 mlflow.set_experiment("Diabetes_MultiModel_Experiment")
@@ -73,7 +75,11 @@ for exp in experiments:
         mlflow.log_metrics(metrics)
 
         # Log model
-        mlflow.sklearn.log_model(model, artifact_path="model", input_example=X_test[:1])
+        mlflow.sklearn.log_model(
+    model,
+    artifact_path="model",
+    input_example=X_test[:1]
+)
 
 
         print(f"Logged {exp['name']} with Test Accuracy: {metrics['test_accuracy']:.4f}")
