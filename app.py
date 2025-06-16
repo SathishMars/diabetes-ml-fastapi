@@ -38,6 +38,8 @@ experiments = [
     {"name": "RandomForest_200", "model": RandomForestClassifier(n_estimators=200, random_state=random_seed), "params": {"n_estimators": 200}},
     {"name": "LogisticRegression", "model": LogisticRegression(max_iter=200), "params": {"solver": "lbfgs"}},
 ]
+import os
+mlflow.set_tracking_uri("file://" + os.path.abspath("mlruns"))
 
 # Set MLflow experiment
 mlflow.set_experiment("Diabetes_MultiModel_Experiment")
@@ -67,7 +69,8 @@ for exp in experiments:
         mlflow.log_metrics(metrics)
 
         # Log model
-        mlflow.sklearn.log_model(model, artifact_path="model")
+        mlflow.sklearn.log_model(model, artifact_path="model", input_example=X_test[:1])
+
 
         print(f"Logged {exp['name']} with Test Accuracy: {metrics['test_accuracy']:.4f}")
 
