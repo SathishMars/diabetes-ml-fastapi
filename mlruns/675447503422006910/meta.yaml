@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910
+creation_time: 1750053482678
+experiment_id: '675447503422006910'
+last_update_time: 1750053482678
+lifecycle_stage: active
+name: Diabetes_MultiModel_Experiment

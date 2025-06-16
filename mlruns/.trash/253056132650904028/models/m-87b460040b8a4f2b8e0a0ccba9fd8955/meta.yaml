@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Sathish/Docker_MLproject/mlruns/253056132650904028/models/m-87b460040b8a4f2b8e0a0ccba9fd8955/artifacts
+creation_timestamp: 1750053336501
+experiment_id: '253056132650904028'
+last_updated_timestamp: 1750053340714
+model_id: m-87b460040b8a4f2b8e0a0ccba9fd8955
+model_type: null
+name: svc_model
+source_run_id: 128a201727c14d69b98e739c06e2bc4f
+status: 2
+status_message: null

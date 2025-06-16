@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/9f045c1220f344e7ace6ca2552d17766/artifacts
+end_time: 1750056388645
+entry_point_name: ''
+experiment_id: '675447503422006910'
+lifecycle_stage: active
+run_id: 9f045c1220f344e7ace6ca2552d17766
+run_name: SVC_RBF
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750056384799
+status: 3
+tags: []
+user_id: Sathis Sivasankaran

@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/models/m-18d5a9a510cf40bc9f164d2f7865d7a2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.0
+model_id: m-18d5a9a510cf40bc9f164d2f7865d7a2
+model_size_bytes: 21130
+model_uuid: m-18d5a9a510cf40bc9f164d2f7865d7a2
+prompts: null
+run_id: 351881f3102147c8bfa9b230ddd65371
+utc_time_created: '2025-06-16 05:58:08.779229'

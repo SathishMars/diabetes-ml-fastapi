@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/a0a2a3524919438390b57ff4d5706792/artifacts
+end_time: 1750053508142
+entry_point_name: ''
+experiment_id: '675447503422006910'
+lifecycle_stage: active
+run_id: a0a2a3524919438390b57ff4d5706792
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750053504946
+status: 3
+tags: []
+user_id: Sathis Sivasankaran

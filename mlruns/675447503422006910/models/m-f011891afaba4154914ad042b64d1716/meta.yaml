@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/models/m-f011891afaba4154914ad042b64d1716/artifacts
+creation_timestamp: 1750053501472
+experiment_id: '675447503422006910'
+last_updated_timestamp: 1750053504893
+model_id: m-f011891afaba4154914ad042b64d1716
+model_type: null
+name: model
+source_run_id: 1d8ea53c8b904a0c90ca662dc622f0bf
+status: 2
+status_message: null

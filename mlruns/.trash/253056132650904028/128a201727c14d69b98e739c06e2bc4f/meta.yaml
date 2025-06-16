@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sathish/Docker_MLproject/mlruns/253056132650904028/128a201727c14d69b98e739c06e2bc4f/artifacts
+deleted_time: 1750053531160
+end_time: 1750053340730
+entry_point_name: ''
+experiment_id: '253056132650904028'
+lifecycle_stage: deleted
+run_id: 128a201727c14d69b98e739c06e2bc4f
+run_name: mysterious-mare-984
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750053329753
+status: 3
+tags: []
+user_id: Sathis Sivasankaran

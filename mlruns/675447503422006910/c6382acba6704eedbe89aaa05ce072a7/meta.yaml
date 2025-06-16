@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/c6382acba6704eedbe89aaa05ce072a7/artifacts
+end_time: 1750056693614
+entry_point_name: ''
+experiment_id: '675447503422006910'
+lifecycle_stage: active
+run_id: c6382acba6704eedbe89aaa05ce072a7
+run_name: SVC_Linear
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750056681982
+status: 3
+tags: []
+user_id: Sathis Sivasankaran

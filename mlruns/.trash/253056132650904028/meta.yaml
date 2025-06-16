@@ -1,0 +1,7 @@
+artifact_location: file:///D:/Sathish/Docker_MLproject/mlruns/253056132650904028
+creation_time: 1750053329568
+experiment_id: '253056132650904028'
+last_update_time: 1750053531160
+lifecycle_stage: deleted
+name: Diabetes Prediction SVC
+tags: {}

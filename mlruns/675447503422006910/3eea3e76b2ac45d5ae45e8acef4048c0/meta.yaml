@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Sathish/Docker_MLproject/mlruns/675447503422006910/3eea3e76b2ac45d5ae45e8acef4048c0/artifacts
+end_time: 1750053500734
+entry_point_name: ''
+experiment_id: '675447503422006910'
+lifecycle_stage: active
+run_id: 3eea3e76b2ac45d5ae45e8acef4048c0
+run_name: RandomForest_100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750053496465
+status: 3
+tags: []
+user_id: Sathis Sivasankaran
