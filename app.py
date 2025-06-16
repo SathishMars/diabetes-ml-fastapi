@@ -74,5 +74,8 @@ for exp in experiments:
 
         print(f"Logged {exp['name']} with Test Accuracy: {metrics['test_accuracy']:.4f}")
 
-        with open("app/diabetes_model.pkl", "wb") as f:
-            pickle.dump(model, f)
+        os.makedirs("app", exist_ok=True)
+
+# Save the best model (last model in the loop here)
+with open("app/diabetes_model.pkl", "wb") as f:
+    pickle.dump(model, f)
